@@ -1,0 +1,15 @@
+// ltl-pbkdf2/main.ltl
+//
+// PBKDF2-HMAC with RFC 2898 test suite.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pbkdf2 v0.1.0")
+    io::println("PBKDF2-HMAC with RFC 2898 test suite.")
+    0
+}
